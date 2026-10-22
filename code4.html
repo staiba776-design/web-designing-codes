@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Event Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        figure {
+            background-color: white;
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 300px;
+        }
+
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>College Event Image Gallery</h1>
+    <p>Memorable moments from our college annual fest.</p>
+
+    <div class="gallery">
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=600"
+                 alt="Students and guests attending a college event in a decorated venue">
+            <figcaption>College Annual Fest</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=600"
+                 alt="Audience enjoying a live music performance on stage">
+            <figcaption>Live Music Performance</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=600"
+                 alt="College students gathered together for an academic event">
+            <figcaption>Student Gathering</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=600"
+                 alt="Colorful stage lights illuminating a live college celebration">
+            <figcaption>Cultural Celebration</figcaption>
+        </figure>
+
+    </div>
+
+</body>
+</html>
